@@ -1,0 +1,102 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 15px;
+  font-family: "Inter";
+}
+
+/*TYPOGRAPHY*/
+h1 {
+  font-size: 2.6rem;
+  color: hsl(0, 0%, 100%);
+
+  line-height: 1.2;
+}
+
+h1 span {
+  color: hsl(277, 64%, 61%);
+}
+
+.heading p {
+  margin: 2em auto;
+}
+
+h2 {
+  font-size: 1.7rem;
+  color: hsl(0, 0%, 100%);
+}
+
+p {
+  color: hsla(0, 0%, 100%, 0.75);
+}
+.stats p {
+  margin-top: 0.5em;
+  margin-right: 0.4em;
+  color: hsla(0, 0%, 100%, 0.6);
+}
+/*LAYOUT*/
+img {
+  width: 100%;
+  max-width: 100%;
+  border-bottom-right-radius: 14px;
+  border-top-right-radius: 14px;
+}
+.container {
+  display: flex;
+  border-radius: 14px;
+  max-width: 1440px;
+  width: 85%;
+  margin: 12em auto;
+  background-color: hsl(244, 38%, 16%);
+}
+
+.heading {
+  border: px green solid;
+  margin-top: 6.5em;
+  padding-right: 2em;
+  margin-left: 6.6em;
+  line-height: 1.1;
+  font-family: "Inter", sans-serif;
+  letter-spacing: 1.2px;
+}
+
+.heading p {
+  line-height: 1.7;
+  font-size: 1em;
+  padding-right: 4em;
+  font-family: "Inter", sans-serif;
+}
+
+.columns {
+  border: px orange solid;
+  margin-right: 9em;
+}
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Lexend:wght@100&display=swap");
+.stats {
+  display: flex;
+  font-size: em;
+  margin-right: -9em;
+  margin-top: 6.6em;
+  margin-bottom: -4em;
+  border: px greenyellow solid;
+  margin-left: 6.5em;
+  font-family: "Inter", sans-serif;
+}
+.statsh2 p {
+  font-family: "Lexend Deca", sans-serif;
+  letter-spacing: 1.6px;
+  font-weight: lighter;
+  line-height: 1.5;
+  font-size: 0.8rem;
+}
+.statsh2 {
+  margin-right: 5em;
+  border: px yellow solid;
+}
