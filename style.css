@@ -9,6 +9,7 @@
 body {
   font-size: 15px;
   font-family: "Inter";
+  background-color: hsl(233, 47%, 7%);
 }
 
 /*TYPOGRAPHY*/
@@ -44,12 +45,17 @@ p {
 img {
   width: 100%;
   max-width: 100%;
-  border-bottom-right-radius: 14px;
-  border-top-right-radius: 14px;
+  border-bottom-right-radius: 12px;
+  border-top-right-radius: 12px;
+  display: flex;
+
+  filter: invert(38%) sepia(100%) saturate(170%) hue-rotate(234deg)
+    brightness(65%) contrast(215%);
 }
+
 .container {
   display: flex;
-  border-radius: 14px;
+  border-radius: 12px;
   max-width: 1440px;
   width: 85%;
   margin: 12em auto;
