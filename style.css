@@ -14,7 +14,7 @@ body {
 
 /*TYPOGRAPHY*/
 h1 {
-  font-size: 2.6rem;
+  font-size: 2.1rem;
   color: hsl(0, 0%, 100%);
 
   line-height: 1.2;
@@ -29,7 +29,8 @@ h1 span {
 }
 
 h2 {
-  font-size: 1.7rem;
+  font-size: 1.5rem;
+  font-weight: 600;
   color: hsl(0, 0%, 100%);
 }
 
@@ -43,12 +44,10 @@ p {
 }
 /*LAYOUT*/
 img {
-  width: 100%;
-  max-width: 100%;
+  width: 90%;
+  max-width: 90%;
   border-bottom-right-radius: 12px;
   border-top-right-radius: 12px;
-  display: flex;
-
   filter: invert(38%) sepia(100%) saturate(170%) hue-rotate(234deg)
     brightness(65%) contrast(215%);
 }
@@ -56,53 +55,54 @@ img {
 .container {
   display: flex;
   border-radius: 12px;
-  max-width: 1440px;
+  max-width: 1080px;
   width: 85%;
-  margin: 12em auto;
+  margin: 9em;
+  margin-left: 10em;
   background-color: hsl(244, 38%, 16%);
 }
 
 .heading {
   border: px green solid;
-  margin-top: 6.5em;
-  padding-right: 2em;
-  margin-left: 6.6em;
+  margin-top: 5em;
+  padding-right: sem;
+  margin-right: 1em;
+  margin-left: 4.7em;
   line-height: 1.1;
   font-family: "Inter", sans-serif;
   letter-spacing: 1.2px;
 }
 
 .heading p {
-  line-height: 1.7;
-  font-size: 1em;
-  padding-right: 4em;
+  line-height: 1.9;
+  font-size: 0.85rem;
+  padding-right: 1em;
   font-family: "Inter", sans-serif;
+  font-weight: 300;
 }
 
 .columns {
   border: px orange solid;
-  margin-right: 9em;
+  margin-right: 6em;
 }
 @import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter&family=Lexend:wght@100&display=swap");
 .stats {
   display: flex;
-  font-size: em;
-  margin-right: -9em;
-  margin-top: 6.6em;
-  margin-bottom: -4em;
+  margin-top: 5.5em;
+  margin-bottom: -em;
   border: px greenyellow solid;
-  margin-left: 6.5em;
+  margin-left: 4.7em;
   font-family: "Inter", sans-serif;
 }
 .statsh2 p {
   font-family: "Lexend Deca", sans-serif;
   letter-spacing: 1.6px;
   font-weight: lighter;
-  line-height: 1.5;
-  font-size: 0.8rem;
+  line-height: 1.4;
+  font-size: 0.75rem;
 }
 .statsh2 {
-  margin-right: 5em;
+  margin-right: 3.5em;
   border: px yellow solid;
 }
