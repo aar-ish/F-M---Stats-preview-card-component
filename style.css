@@ -14,7 +14,7 @@ body {
 
 /*TYPOGRAPHY*/
 h1 {
-  font-size: 2.1rem;
+  font-size: 2.5rem;
   color: hsl(0, 0%, 100%);
 
   line-height: 1.2;
@@ -44,8 +44,8 @@ p {
 }
 /*LAYOUT*/
 img {
-  width: 90%;
-  max-width: 90%;
+  width: 80%;
+  max-width: 100%;
   border-bottom-right-radius: 12px;
   border-top-right-radius: 12px;
   filter: invert(38%) sepia(100%) saturate(170%) hue-rotate(234deg)
@@ -55,18 +55,18 @@ img {
 .container {
   display: flex;
   border-radius: 12px;
-  max-width: 1080px;
-  width: 85%;
-  margin: 9em;
-  margin-left: 10em;
+  min-width: 1040px;
+  max-width: 1260px;
+  width: 80%;
+  margin: 12em auto;
+  border: px cyan solid;
   background-color: hsl(244, 38%, 16%);
 }
 
 .heading {
   border: px green solid;
   margin-top: 5em;
-  padding-right: sem;
-  margin-right: 1em;
+  padding-right: 2em;
   margin-left: 4.7em;
   line-height: 1.1;
   font-family: "Inter", sans-serif;
@@ -75,7 +75,7 @@ img {
 
 .heading p {
   line-height: 1.9;
-  font-size: 0.85rem;
+  font-size: 1rem;
   padding-right: 1em;
   font-family: "Inter", sans-serif;
   font-weight: 300;
@@ -90,7 +90,7 @@ img {
 .stats {
   display: flex;
   margin-top: 5.5em;
-  margin-bottom: -em;
+  margin-bottom: 4em;
   border: px greenyellow solid;
   margin-left: 4.7em;
   font-family: "Inter", sans-serif;
